@@ -1,0 +1,21 @@
+Chứng minh: Một đồ thị G là hai phần khi và chỉ khi G không có chu trình lẻ.
+ *Chiều thuận:
+	G là hai phần và có 1 chu trình đi qua u ∈ U khi đó số lần đi vào u bằng số lần đi
+	ra khỏi u và tổng số cạnh của chu trình là số cạnh kề với tập đỉnh thuộc một trong
+	hai tập U hoặc V thuộc chu trình đó,nên ta có 1 chu trình độ dài chẵn.
+ *Chiều nghịch:
+ 	Không mất tính tổng quát ta giả sử G liên thông,chọn một đỉnh u bất kì,với mỗi đỉnh v ∈ V(G) do tính liên thông của G sẽ tồn tại một đường đi từ u đến v nếu độ dài đường đi này là chẵn thì cho v vào tập U,ngược lại thì cho v vào V.
+
+	Ta sẽ chứng minh:
+
+	1. Cách xây dựng này là không mâu thuẫn.
+
+	2. Không có cạnh nào trong U.
+
+	3. Không có cạnh nào trong V.
+	Ta đi chứng minh ba điều trên
+		1. Giả sử phản chứng tồn tại hai đường đi chẵn,lẻ từ u đến v thì sẽ tồn tại một chu trình lẻ suy ra mâu thuẫn với giả thiết.
+
+		2. Giả sử tồn tại cạnh (x,y) ∈ U khi đó tồn tại đường đi độ dài chẵn từ u đến x và từ v đến y nên sẽ có 1 chu trình lẻ.
+		3. Tương tự như trường hợp 2.
+	Từ ba điều trên thì đồ thị đã cho là đồ thị hai phần.

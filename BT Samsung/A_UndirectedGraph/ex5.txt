@@ -1,0 +1,6 @@
+Đề bài: Hãy chứng minh rằng một đồ thị bất
+kì mà không có điểm articulation là đồ thị biconnected.
+
+Chứng minh:
+	Giả sử có 2 đỉnh s và t bất kì và đường đi p nối s và t. Theo bài toán, không có điểm nào trên p là điểm articulation, gọi w là 1 đỉnh bất kì trên đường đi p khác s và t. Do w không phải là điểm articulation, nên khi ta xóa điểm w, đồ thị vẫn liên thông, do đó vẫn tồn tại 1 đường đi q khác p nối đỉnh s và t. Do đó, giữa s và t ta có đường đi p và q không giao nhau 
+	=> đồ thị đó là đồ thị biconnected.

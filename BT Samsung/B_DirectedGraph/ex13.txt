@@ -1,0 +1,7 @@
+Đề bài: Chứng minh rằng có tất cả 2^(V^2) đồ thị V đỉnh có hướng không chứa cạnh song song.
+
+Chứng minh: 
+	Kí hiệu nCk là tổ hợp chập k của n.
+	Đồ thị có hướng có V đỉnh sẽ có tất cả V^2 cạnh. Suy ra 1 đồ thị có thể có từ 1 đến V^2 cạnh. Suy ra tổng số đồ thị có hướng có thể thu được là
+	(V^2)C0 + (V^2)C1 + .... + (V^2)C(V^2) = (1 + 1)^(V^2) = 2^(V^2) => đpcm
+
